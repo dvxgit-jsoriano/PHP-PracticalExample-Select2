@@ -33,30 +33,7 @@
         </div>
     </nav>
 
-    <section class="container mt-4 p-4 border">
-        <h4>Select2</h4>
-
-        <div class="card">
-            <div class="card-header">
-                Basic Sample
-            </div>
-            <div class="card-body">
-                <select name="basic" id="basic" class="form-select">
-                    <?php
-                    for ($i = 0; $i < 1000; $i++)
-                        echo "<option value='$i'>$i</option>";
-                    ?>
-                </select>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        $(document).ready(function() {
-            $('#basic').select2();
-        });
-    </script>
-
+    
 </body>
 
 </html>
